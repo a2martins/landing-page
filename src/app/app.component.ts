@@ -1299,4 +1299,254 @@ export class AppComponent {
         '1. Para aproveitar a qualidade máxima de sua TV, é necessário recepção de sinal digital, em formato Widescreen, através do conversor integrado. \r\n2. Conforme a Lei nº 11.291/06, informamos que o uso de equipamentos em potência superior a 85 decibéis pode prejudicar a audição. \r\n\r\n3. Devido às normas da ABNT e às resoluções nº 13 de 2006, nº 2 de 2007 e nº 8 de 2009 do CONMETRO, os fabricantes estão mudando as tomadas para o novo padrão. Para utilizar este produto, será preciso adaptador ou a troca da tomada antiga. Não nos responsabilizamos por esta alteração. \r\n\r\n4. Parte das conexões é traseira. Para colocar a TV em um suporte em uma parede ou painel, verificar com o fabricante do suporte a compatibilidade e o espaço necessário para conectar os cabos. \r\n\r\n5. O conteúdo/acesso ao Smart TV é limitado e varia de acordo com o fornecedor. Para o funcionamento do recurso, a TV deve estar conectada à rede de Internet via cabo de rede ou pelo sistema Wi-Fi. Não nos responsabilizamos pela configuração. \r\n\r\nATENÇÃO: uma TV LED possui painel de LCD e iluminação por lâmpadas LED (diodos emissores de luz). A espessura da tela pode ser maior ou menor de acordo com o modelo e fabricante. \r\n\r\n* Itens vendidos separadamente \r\n\r\nA tecnologia 4K dos Smartphones Sony possui resolução de 3.840 pixels na horizontal × 2.160 pixels na vertical (com base no padrão SID). A tecnologia 4K dos televisores Sony possui resolução de 3840x2160 pixels com todos os pixels com as cores RGB (Vermelho, Verde e Azul), compatíveis com os padrões 4K definidos pela Consumer Electronics Association (EUA) e Digital Europe (Europa).'
     }
   ];
+
+  avaliations = {
+    nota: '5',
+    quantidadeAvaliacoes: 180,
+    porcentagemRecomendacao: 95,
+    avaliacoes: [
+      {
+        titulo: '',
+        descricao: 'Ótima qualidade ',
+        nota: '5',
+        avaliacaoGeral: '',
+        avaliadorNome: 'Iracy',
+        avaliadorEstado: null,
+        like: 0,
+        dislike: 0,
+        data: '10/03/2020',
+        galeriaMidia: [],
+        idReview: 5914611,
+        notaArredondada: 5,
+        notaDescricao: '',
+        avalidadorCidade: null
+      },
+      {
+        titulo: '',
+        descricao:
+          'Gostei muito do Cel e a entrega ultra rápido e precisa.Recomendo!',
+        nota: '5',
+        avaliacaoGeral: '',
+        avaliadorNome: 'REGINA',
+        avaliadorEstado: null,
+        like: 0,
+        dislike: 0,
+        data: '10/03/2020',
+        galeriaMidia: [],
+        idReview: 5913377,
+        notaArredondada: 5,
+        notaDescricao: '',
+        avalidadorCidade: null
+      },
+      {
+        titulo: '',
+        descricao: 'Bom ',
+        nota: '5',
+        avaliacaoGeral: '',
+        avaliadorNome: 'edmar',
+        avaliadorEstado: null,
+        like: 0,
+        dislike: 0,
+        data: '10/03/2020',
+        galeriaMidia: [],
+        idReview: 5912039,
+        notaArredondada: 5,
+        notaDescricao: '',
+        avalidadorCidade: null
+      },
+      {
+        titulo: '',
+        descricao:
+          '\\não gostei do fone de ouvido. Muito ruim para encaixar na orelha. E na hora de fazer ligação com ele é complicado.',
+        nota: '3',
+        avaliacaoGeral: '',
+        avaliadorNome: 'Sirlene',
+        avaliadorEstado: null,
+        like: 0,
+        dislike: 0,
+        data: '10/03/2020',
+        galeriaMidia: [],
+        idReview: 5911991,
+        notaArredondada: 3,
+        notaDescricao: '',
+        avalidadorCidade: null
+      },
+      {
+        titulo: '',
+        descricao: 'Muito bom.',
+        nota: '4',
+        avaliacaoGeral: '',
+        avaliadorNome: 'Thiago',
+        avaliadorEstado: null,
+        like: 0,
+        dislike: 0,
+        data: '10/03/2020',
+        galeriaMidia: [],
+        idReview: 5911737,
+        notaArredondada: 4,
+        notaDescricao: '',
+        avalidadorCidade: null
+      }
+    ],
+    melhorAvaliacao: {
+      titulo: '',
+      descricao: 'Muito bom , câmera ótima , não trava um bom espaço...',
+      nota: '5',
+      avaliacaoGeral: '',
+      avaliadorNome: 'Jailson',
+      avaliadorEstado: '',
+      like: 61,
+      dislike: 29,
+      data: '04/01/2020',
+      galeriaMidia: [],
+      idReview: null,
+      notaArredondada: 5,
+      notaDescricao: '',
+      avalidadorCidade: ''
+    },
+    piorAvaliacao: {
+      titulo: '',
+      descricao:
+        'em menos de 3 meses deu um erro irrecuperavel no sistema, inutilizando o celular',
+      nota: '1',
+      avaliacaoGeral: '',
+      avaliadorNome: 'Oswaldo',
+      avaliadorEstado: '',
+      like: 0,
+      dislike: 0,
+      data: '10/02/2020',
+      galeriaMidia: [],
+      idReview: null,
+      notaArredondada: 1,
+      notaDescricao: '',
+      avalidadorCidade: ''
+    },
+    composicaoNota: [
+      {
+        nota: 5,
+        porcentagem: 83,
+        notaDescricao: ''
+      },
+      {
+        nota: 4,
+        porcentagem: 12,
+        notaDescricao: ''
+      },
+      {
+        nota: 3,
+        porcentagem: 3,
+        notaDescricao: ''
+      },
+      {
+        nota: 2,
+        porcentagem: 2,
+        notaDescricao: ''
+      },
+      {
+        nota: 1,
+        porcentagem: 1,
+        notaDescricao: ''
+      }
+    ],
+    notasParciais: [
+      {
+        criterio: 'Recursos',
+        nota: 3.0
+      },
+      {
+        criterio: 'Bateria',
+        nota: 4.0
+      },
+      {
+        criterio: 'Câmera',
+        nota: 3.0
+      }
+    ],
+    tags: [
+      {
+        descricao: 'produto',
+        link: '#'
+      },
+      {
+        descricao: 'excelente',
+        link: '#'
+      },
+      {
+        descricao: 'aparelho',
+        link: '#'
+      },
+      {
+        descricao: 'câmera',
+        link: '#'
+      },
+      {
+        descricao: 'recomendo',
+        link: '#'
+      },
+      {
+        descricao: 'gostei',
+        link: '#'
+      },
+      {
+        descricao: 'bateria',
+        link: '#'
+      },
+      {
+        descricao: 'celular',
+        link: '#'
+      },
+      {
+        descricao: 'rápido',
+        link: '#'
+      },
+      {
+        descricao: 'qualidade',
+        link: '#'
+      },
+      {
+        descricao: 'custo',
+        link: '#'
+      },
+      {
+        descricao: 'benefício',
+        link: '#'
+      },
+      {
+        descricao: 'loja',
+        link: '#'
+      },
+      {
+        descricao: 'dura',
+        link: '#'
+      },
+      {
+        descricao: 'number',
+        link: '#'
+      },
+      {
+        descricao: 'bonito',
+        link: '#'
+      },
+      {
+        descricao: 'trava',
+        link: '#'
+      },
+      {
+        descricao: 'boa',
+        link: '#'
+      },
+      {
+        descricao: 'super',
+        link: '#'
+      },
+      {
+        descricao: 'entrega',
+        link: '#'
+      }
+    ],
+    notaDescricao: null,
+    notaArredondada: 5,
+    possuiMaisRegistros: true,
+    possuiMelhorPiorAvaliacao: true
+  };
 }
