@@ -1211,92 +1211,6 @@ export class AppComponent {
           Peso: 20320.0
         }
       ],
-      FichaTecnica: [
-        {
-          IdCampoValorGrupo: 740,
-          Nome: 'Características',
-          Especificacoes: [
-            {
-              IdCampoValor: 1,
-              Nome: 'Controle remoto',
-              Valor: 'Sim'
-            },
-            {
-              IdCampoValor: 42774,
-              Nome: 'Wi-Fi integrado',
-              Valor: 'Sim'
-            },
-            {
-              IdCampoValor: 93188,
-              Nome: 'Tecnologia da Tela',
-              Valor: 'LED'
-            },
-            {
-              IdCampoValor: 11570,
-              Nome: 'Entrada USB',
-              Valor: '3'
-            },
-            {
-              IdCampoValor: 20,
-              Nome: 'Entrada HDMI',
-              Valor: '3'
-            }
-          ]
-        },
-        {
-          IdCampoValorGrupo: 514,
-          Nome: 'Especificações Técnicas',
-          Especificacoes: [
-            {
-              IdCampoValor: 0,
-              Nome: 'Potência de áudio total (RMS)',
-              Valor: '10W+10W'
-            },
-            {
-              IdCampoValor: 0,
-              Nome: 'Consumo de energia',
-              Valor: '136 W'
-            },
-            {
-              IdCampoValor: 0,
-              Nome: 'Dimensões s/ base (LxAxP) mm',
-              Valor: '1238 x 722 x 58'
-            },
-            {
-              IdCampoValor: 74332,
-              Nome: 'Classificação de consumo (Selo ENCE)',
-              Valor: 'A'
-            },
-            {
-              IdCampoValor: 0,
-              Nome: 'Peso s/ base (kg):',
-              Valor: '17,7'
-            },
-            {
-              IdCampoValor: 0,
-              Nome: 'Dimensões c/ base (LxAxP) mm',
-              Valor: '1238 x 775 x 252'
-            },
-            {
-              IdCampoValor: 0,
-              Nome: 'Conteúdo da embalagem',
-              Valor:
-                '- TV Sony KD-55X705E BR6\r\n- Base de mesa\r\n- Controle remoto\r\n- Baterias\r\n- Cabo de alimentação CA\r\n- Instruções de operação\r\n- Guia de configuração rápida'
-            },
-            {
-              IdCampoValor: 0,
-              Nome: 'Padrão do furo p/ instalação na parede',
-              Valor: '300 x 200 mm'
-            },
-            {
-              IdCampoValor: 0,
-              Nome: 'Observações',
-              Valor:
-                '1. Para aproveitar a qualidade máxima de sua TV, é necessário recepção de sinal digital, em formato Widescreen, através do conversor integrado. \r\n2. Conforme a Lei nº 11.291/06, informamos que o uso de equipamentos em potência superior a 85 decibéis pode prejudicar a audição. \r\n\r\n3. Devido às normas da ABNT e às resoluções nº 13 de 2006, nº 2 de 2007 e nº 8 de 2009 do CONMETRO, os fabricantes estão mudando as tomadas para o novo padrão. Para utilizar este produto, será preciso adaptador ou a troca da tomada antiga. Não nos responsabilizamos por esta alteração. \r\n\r\n4. Parte das conexões é traseira. Para colocar a TV em um suporte em uma parede ou painel, verificar com o fabricante do suporte a compatibilidade e o espaço necessário para conectar os cabos. \r\n\r\n5. O conteúdo/acesso ao Smart TV é limitado e varia de acordo com o fornecedor. Para o funcionamento do recurso, a TV deve estar conectada à rede de Internet via cabo de rede ou pelo sistema Wi-Fi. Não nos responsabilizamos pela configuração. \r\n\r\nATENÇÃO: uma TV LED possui painel de LCD e iluminação por lâmpadas LED (diodos emissores de luz). A espessura da tela pode ser maior ou menor de acordo com o modelo e fabricante. \r\n\r\n* Itens vendidos separadamente \r\n\r\nA tecnologia 4K dos Smartphones Sony possui resolução de 3.840 pixels na horizontal × 2.160 pixels na vertical (com base no padrão SID). A tecnologia 4K dos televisores Sony possui resolução de 3840x2160 pixels com todos os pixels com as cores RGB (Vermelho, Verde e Azul), compatíveis com os padrões 4K definidos pela Consumer Electronics Association (EUA) e Digital Europe (Europa).'
-            }
-          ]
-        }
-      ],
       Imagens: [],
       Videos: [],
       Canonical:
@@ -1307,4 +1221,82 @@ export class AppComponent {
     Mensagens: [],
     Protocolo: 'dd0d3af0-a463-4588-9656-df0cf10e2b45'
   };
+
+  characteristics = [
+    {
+      IdCampoValor: 1,
+      Nome: 'Controle remoto',
+      Valor: 'Sim'
+    },
+    {
+      IdCampoValor: 42774,
+      Nome: 'Wi-Fi integrado',
+      Valor: 'Sim'
+    },
+    {
+      IdCampoValor: 93188,
+      Nome: 'Tecnologia da Tela',
+      Valor: 'LED'
+    },
+    {
+      IdCampoValor: 11570,
+      Nome: 'Entrada USB',
+      Valor: '3'
+    },
+    {
+      IdCampoValor: 20,
+      Nome: 'Entrada HDMI',
+      Valor: '3'
+    }
+  ];
+
+  specifications = [
+    {
+      IdCampoValor: 0,
+      Nome: 'Potência de áudio total (RMS)',
+      Valor: '10W+10W'
+    },
+    {
+      IdCampoValor: 0,
+      Nome: 'Consumo de energia',
+      Valor: '136 W'
+    },
+    {
+      IdCampoValor: 0,
+      Nome: 'Dimensões s/ base (LxAxP) mm',
+      Valor: '1238 x 722 x 58'
+    },
+    {
+      IdCampoValor: 74332,
+      Nome: 'Classificação de consumo (Selo ENCE)',
+      Valor: 'A'
+    },
+    {
+      IdCampoValor: 0,
+      Nome: 'Peso s/ base (kg):',
+      Valor: '17,7'
+    },
+    {
+      IdCampoValor: 0,
+      Nome: 'Dimensões c/ base (LxAxP) mm',
+      Valor: '1238 x 775 x 252'
+    },
+    {
+      IdCampoValor: 0,
+      Nome: 'Conteúdo da embalagem',
+      Valor:
+        '- TV Sony KD-55X705E BR6\r\n- Base de mesa\r\n- Controle remoto\r\n- Baterias\r\n- Cabo de alimentação CA\r\n- Instruções de operação\r\n- Guia de configuração rápida'
+    },
+    {
+      IdCampoValor: 0,
+      Nome: 'Padrão do furo p/ instalação na parede',
+      Valor: '300 x 200 mm'
+    },
+    {
+      IdCampoValor: 0,
+      Nome: 'Observações',
+      Valor:
+        '1. Para aproveitar a qualidade máxima de sua TV, é necessário recepção de sinal digital, em formato Widescreen, através do conversor integrado. \r\n2. Conforme a Lei nº 11.291/06, informamos que o uso de equipamentos em potência superior a 85 decibéis pode prejudicar a audição. \r\n\r\n3. Devido às normas da ABNT e às resoluções nº 13 de 2006, nº 2 de 2007 e nº 8 de 2009 do CONMETRO, os fabricantes estão mudando as tomadas para o novo padrão. Para utilizar este produto, será preciso adaptador ou a troca da tomada antiga. Não nos responsabilizamos por esta alteração. \r\n\r\n4. Parte das conexões é traseira. Para colocar a TV em um suporte em uma parede ou painel, verificar com o fabricante do suporte a compatibilidade e o espaço necessário para conectar os cabos. \r\n\r\n5. O conteúdo/acesso ao Smart TV é limitado e varia de acordo com o fornecedor. Para o funcionamento do recurso, a TV deve estar conectada à rede de Internet via cabo de rede ou pelo sistema Wi-Fi. Não nos responsabilizamos pela configuração. \r\n\r\nATENÇÃO: uma TV LED possui painel de LCD e iluminação por lâmpadas LED (diodos emissores de luz). A espessura da tela pode ser maior ou menor de acordo com o modelo e fabricante. \r\n\r\n* Itens vendidos separadamente \r\n\r\nA tecnologia 4K dos Smartphones Sony possui resolução de 3.840 pixels na horizontal × 2.160 pixels na vertical (com base no padrão SID). A tecnologia 4K dos televisores Sony possui resolução de 3840x2160 pixels com todos os pixels com as cores RGB (Vermelho, Verde e Azul), compatíveis com os padrões 4K definidos pela Consumer Electronics Association (EUA) e Digital Europe (Europa).'
+    }
+  ];
 }

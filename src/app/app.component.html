@@ -66,12 +66,28 @@
   <section [className]="'container-block'">
     <div [className]="'box-center'">
       <h2 [className]="'subject'">Características</h2>
+
+      <div
+        *ngFor="let characteristc of characteristics"
+        [className]="'box-characteristc'"
+      >
+        <div [className]="'characteristcs-name'">{{characteristc.Nome}}</div>
+        <div [className]="'characteristcs-value'">{{characteristc.Valor}}</div>
+      </div>
     </div>
   </section>
 
   <section [className]="'container-block'">
     <div [className]="'box-center'">
       <h2 [className]="'subject'">Especificações Técnicas</h2>
+
+      <div
+        *ngFor="let specification of specifications"
+        [className]="'box-characteristc'"
+      >
+        <div [className]="'characteristcs-name'">{{specification.Nome}}</div>
+        <div [className]="'characteristcs-value'">{{specification.Valor}}</div>
+      </div>
     </div>
   </section>
 

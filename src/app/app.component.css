@@ -57,3 +57,20 @@ section.container-block {
   text-align: left;
   color: #2a7bbf;
 }
+
+.box-characteristc {
+  margin: 10px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.characteristcs-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 16px;
+  color: #646464;
+  padding: 10px 0;
+}
+
+.characteristcs-value {
+  padding: 10px 0;
+}
