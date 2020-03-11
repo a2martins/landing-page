@@ -58,9 +58,10 @@ section.container-block {
   color: #2a7bbf;
 }
 
-.box-characteristc {
+.box-info {
   margin: 10px 0;
   border-bottom: 1px solid #ececec;
+  padding-bottom: 15px;
 }
 
 .characteristcs-name {
@@ -71,6 +72,32 @@ section.container-block {
   padding: 10px 0;
 }
 
-.characteristcs-value {
-  padding: 10px 0;
+.percent-avaliation {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 35px;
+  color: #2a7bbf;
+  float: left;
+  padding: 2px 0;
+  margin: 0 15px;
+}
+
+.box-text-avaliation {
+  margin: 0 15px;
+  width: 330px;
+}
+
+.text-avaliation {
+  font-size: 18px;
+  line-height: 14px;
+  color: #646464;
+}
+
+.note-avaliation {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 35px;
+  color: #2a7bbf;
+  padding: 2px 0;
+  margin: 0 15px;
 }

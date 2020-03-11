@@ -69,7 +69,7 @@
 
       <div
         *ngFor="let characteristc of characteristics"
-        [className]="'box-characteristc'"
+        [className]="'box-info'"
       >
         <div [className]="'characteristcs-name'">{{characteristc.Nome}}</div>
         <div [className]="'characteristcs-value'">{{characteristc.Valor}}</div>
@@ -83,7 +83,7 @@
 
       <div
         *ngFor="let specification of specifications"
-        [className]="'box-characteristc'"
+        [className]="'box-info'"
       >
         <div [className]="'characteristcs-name'">{{specification.Nome}}</div>
         <div [className]="'characteristcs-value'">{{specification.Valor}}</div>
@@ -95,8 +95,26 @@
     <div [className]="'box-center'">
       <h2 [className]="'subject'">Avaliação dos clientes</h2>
 
-      <div [className]="''">
-        {{avaliations.porcentagemRecomendacao}}%
+      <div [className]="'box-info'">
+        <span [className]="'percent-avaliation'">
+          {{avaliations.porcentagemRecomendacao}}%
+        </span>
+
+        <div [className]="'box-text-avaliation'">
+          <span [className]="'text-avaliation'">
+            Dos clientes recomendariam este produto
+          </span>
+        </div>
+      </div>
+
+      <div [className]="'box-info'">
+        <span [className]="'note-avaliation'">
+          {{avaliations.nota}}.0
+        </span>
+
+        <span [className]="'text-avaliation'">
+          ({{avaliations.quantidadeAvaliacoes}} avaliações)
+        </span>
       </div>
     </div>
   </section>
