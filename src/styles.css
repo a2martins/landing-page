@@ -38,6 +38,13 @@ button {
   color: #2a7bbf;
 }
 
+.subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  color: #2a7bbf;
+  margin: 15px 0;
+}
+
 .text {
   font-size: 18px;
   color: #646464;

@@ -30,19 +30,43 @@ section.container-block {
   max-width: 500px;
 }
 
+.box {
+  margin: 10px 0;
+  padding-bottom: 15px;
+}
+
+.box-info {
+  border-bottom: 1px solid #ececec;
+}
+
 .container-thumbnails {
   display: flex;
   flex-direction: row;
 }
 
 .thumbnails {
-  border: 1px solid #ececec;
+  width: 80px;
   padding: 5px;
   margin-right: 10px;
 }
 
+.thumbnails-border {
+  border: 1px solid #ececec;
+}
+
 .thumbnails .active {
   border: 1px solid #2a7bbf;
+}
+
+.thumbnails-mini {
+  width: 40px;
+}
+.thumbnails img.thumbnails-stars {
+  width: 60px;
+}
+
+.thumbnails-mini img.thumbnails-mini-stars {
+  width: 30px;
 }
 
 .container-title {
@@ -56,12 +80,6 @@ section.container-block {
   padding: 10px;
   text-align: left;
   color: #2a7bbf;
-}
-
-.box-info {
-  margin: 10px 0;
-  border-bottom: 1px solid #ececec;
-  padding-bottom: 15px;
 }
 
 .characteristcs-name {

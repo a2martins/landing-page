@@ -12,31 +12,31 @@
 
     <div [className]="'container-thumbnails'">
       <!-- IMAGES 65 x 65 -->
-      <div [className]="'thumbnails active'">
+      <div [className]="'thumbnails thumbnails-border active'">
         <img
           src="http://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=872783857"
         />
       </div>
 
-      <div [className]="'thumbnails'">
+      <div [className]="'thumbnails thumbnails-border'">
         <img
           src="http://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=872783857"
         />
       </div>
 
-      <div [className]="'thumbnails'">
+      <div [className]="'thumbnails thumbnails-border'">
         <img
           src="http://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=872783857"
         />
       </div>
 
-      <div [className]="'thumbnails'">
+      <div [className]="'thumbnails thumbnails-border'">
         <img
           src="http://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=872783857"
         />
       </div>
 
-      <div [className]="'thumbnails'">
+      <div [className]="'thumbnails thumbnails-border'">
         <img
           src="http://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=872783857"
         />
@@ -69,7 +69,7 @@
 
       <div
         *ngFor="let characteristc of characteristics"
-        [className]="'box-info'"
+        [className]="'box box-info'"
       >
         <div [className]="'characteristcs-name'">{{characteristc.Nome}}</div>
         <div [className]="'characteristcs-value'">{{characteristc.Valor}}</div>
@@ -83,7 +83,7 @@
 
       <div
         *ngFor="let specification of specifications"
-        [className]="'box-info'"
+        [className]="'box box-info'"
       >
         <div [className]="'characteristcs-name'">{{specification.Nome}}</div>
         <div [className]="'characteristcs-value'">{{specification.Valor}}</div>
@@ -95,7 +95,7 @@
     <div [className]="'box-center'">
       <h2 [className]="'subject'">Avaliação dos clientes</h2>
 
-      <div [className]="'box-info'">
+      <div [className]="'box box-info'">
         <span [className]="'percent-avaliation'">
           {{avaliations.porcentagemRecomendacao}}%
         </span>
@@ -107,7 +107,7 @@
         </div>
       </div>
 
-      <div [className]="'box-info'">
+      <div [className]="'box'">
         <span [className]="'note-avaliation'">
           {{avaliations.nota}}.0
         </span>
@@ -115,6 +115,77 @@
         <span [className]="'text-avaliation'">
           ({{avaliations.quantidadeAvaliacoes}} avaliações)
         </span>
+      </div>
+
+      <div [className]="'container-thumbnails'">
+        <!-- IMAGES 65 x 65 -->
+        <div [className]="'thumbnails'">
+          <img [className]="'thumbnails-stars'" src="/assets/images/star.png" />
+        </div>
+
+        <div [className]="'thumbnails'">
+          <img [className]="'thumbnails-stars'" src="/assets/images/star.png" />
+        </div>
+
+        <div [className]="'thumbnails'">
+          <img [className]="'thumbnails-stars'" src="/assets/images/star.png" />
+        </div>
+
+        <div [className]="'thumbnails'">
+          <img [className]="'thumbnails-stars'" src="/assets/images/star.png" />
+        </div>
+
+        <div [className]="'thumbnails'">
+          <img [className]="'thumbnails-stars'" src="/assets/images/star.png" />
+        </div>
+      </div>
+
+      <p [className]="'subtitle'">Composição de nota</p>
+      <div
+        [className]="'box box-info'"
+        *ngFor="let composicaoNota of avaliations.composicaoNota"
+      >
+        <div [className]="'container-thumbnails'">
+          <!-- IMAGES 65 x 65 -->
+          <div [className]="'thumbnails-mini'">
+            <img
+              [className]="'thumbnails-mini-stars'"
+              src="/assets/images/star.png"
+            />
+          </div>
+
+          <div [className]="'thumbnails-mini'">
+            <img
+              [className]="'thumbnails-mini-stars'"
+              src="/assets/images/star.png"
+            />
+          </div>
+
+          <div [className]="'thumbnails-mini'">
+            <img
+              [className]="'thumbnails-mini-stars'"
+              src="/assets/images/star.png"
+            />
+          </div>
+
+          <div [className]="'thumbnails-mini'">
+            <img
+              [className]="'thumbnails-mini-stars'"
+              src="/assets/images/star.png"
+            />
+          </div>
+
+          <div [className]="'thumbnails-mini'">
+            <img
+              [className]="'thumbnails-mini-stars'"
+              src="/assets/images/star.png"
+            />
+          </div>
+
+          <div>
+            <span>{{composicaoNota.porcentagem}}%</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
