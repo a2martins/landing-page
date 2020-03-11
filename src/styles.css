@@ -1,6 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import '/assets/css/font-face.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
 html,
+body,
+#root {
+  height: 100%;
+}
+
 body {
-  font-family: sans-serif;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiase;
+}
+
+body,
+input,
+button {
+  font-family: 'Roboto', sans-serif;
+}
+
+.d-none {
+  display: none;
+  visibility: hidden;
+}
+
+.subject {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 19px;
+  color: #2a7bbf;
+}
+
+.text {
+  font-size: 18px;
+  color: #646464;
+  margin-top: 10px;
 }

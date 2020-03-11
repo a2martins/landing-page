@@ -14,7 +14,7 @@ header img {
   width: 100%;
 }
 
-.card-thumbnails {
+section.container-block {
   width: 100%;
   display: flex;
   flex: 1 0 auto;
@@ -23,6 +23,11 @@ header img {
   justify-content: center;
   border-bottom: 1px solid #ececec;
   padding: 20px 0;
+}
+
+.box-center {
+  width: 100%;
+  max-width: 500px;
 }
 
 .container-thumbnails {
@@ -38,4 +43,17 @@ header img {
 
 .thumbnails .active {
   border: 1px solid #2a7bbf;
+}
+
+.container-title {
+  width: 100%;
+  max-width: 500px;
+}
+
+.product-name {
+  font-size: 20px;
+  line-height: 23px;
+  padding: 10px;
+  text-align: left;
+  color: #2a7bbf;
 }

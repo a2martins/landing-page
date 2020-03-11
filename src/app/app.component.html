@@ -4,8 +4,8 @@
   />
 </header>
 
-<section [className]="'container'">
-  <div [className]="'card-thumbnails'">
+<main [className]="'container'">
+  <section [className]="'container-block'">
     <img
       src="http://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=872784044"
     />
@@ -43,6 +43,41 @@
       </div>
     </div>
 
-    <div [className]="'product-name'">{{data.Produto.Nome}}</div>
-  </div>
-</section>
+    <div [className]="'container-title'">
+      <h1 [className]="'product-name'">{{data.Produto.Nome}}</h1>
+    </div>
+  </section>
+
+  <section [className]="'container-block'">
+    <div [className]="'box-center'">
+      <h2 [className]="'subject'">Dimensões do Produto</h2>
+    </div>
+  </section>
+
+  <section [className]="'container-block'">
+    <div [className]="'box-center'">
+      <h2 [className]="'subject'">Detalhes</h2>
+      <div [className]="'text'">
+        {{data.Produto.Descricao}}
+      </div>
+    </div>
+  </section>
+
+  <section [className]="'container-block'">
+    <div [className]="'box-center'">
+      <h2 [className]="'subject'">Características</h2>
+    </div>
+  </section>
+
+  <section [className]="'container-block'">
+    <div [className]="'box-center'">
+      <h2 [className]="'subject'">Especificações Técnicas</h2>
+    </div>
+  </section>
+
+  <section [className]="'container-block'">
+    <div [className]="'box-center'">
+      <h2 [className]="'subject'">Avaliação dos clientes</h2>
+    </div>
+  </section>
+</main>
